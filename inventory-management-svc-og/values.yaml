@@ -3,7 +3,7 @@ global:
   tlsSecretName: mooc-team-one
 
 inventory-management-svc-og:
-  replicaCount: 1
+  replicaCount: 3
   
   ingress:
     enabled: true
