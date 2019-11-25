@@ -1,0 +1,10 @@
+global:
+  ingressSubdomain: test-og.us-south.containers.appdomain.cloud
+  tlsSecretName: mooc-team-one
+
+inventory-management-svc-og:
+  replicaCount: 3
+  
+  ingress:
+    enabled: true
+    tlsSecretName: mooc-team-one

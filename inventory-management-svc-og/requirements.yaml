@@ -1,0 +1,4 @@
+dependencies:
+- name: inventory-management-svc-og
+  version: 1.0.0-1
+  repository: http://artifactory.mooc-one-rhos-cluster.us-east.containers.appdomain.cloud/artifactory/generic-local/mooc-team-one/
